@@ -1,5 +1,5 @@
 
-
+/* 
 @import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap');
 :root {  
 
@@ -30,13 +30,13 @@ a:hover {
 
 body {
   margin: 0;
-  /* min-height: 100vh; */
+  min-height: 100vh;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
+} */
 
 
 
