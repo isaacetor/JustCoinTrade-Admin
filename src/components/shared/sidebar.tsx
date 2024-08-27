@@ -2,7 +2,6 @@ import React from 'react';
 import { RxDashboard } from "react-icons/rx";
 import { HiUsers } from "react-icons/hi2";
 import { NavLink } from 'react-router-dom';
-import { IoMdChatboxes } from "react-icons/io";
 import { IoSettingsOutline } from "react-icons/io5";
 import { IoIosPower } from "react-icons/io";
 
@@ -48,22 +47,6 @@ const Sidebar: React.FC = () => {
 									</p>
 								</div>
 						</NavLink>
-						<NavLink
-							to={"/chat"}
-							className={({isActive}) =>
-								!isActive
-									? "transition-all hover:text-[0.90rem] hover:bg-blue-500 w-[95%] rounded-lg hover:text-[#FDFDF7] text-[#717171] "
-									: "transition-all bg-blue-500 w-[95%] text-white rounded-lg hover:text-[white] "
-							}
-						>
-								<div className="w-full h-11 flex items-center   transition-all duration-400 gap-4 px-6 rounded-full cursor-pointer">
-									<IoMdChatboxes  className="w-4 h-4" />
-									<p className="font-semibold text-md">
-										Chat
-									</p>
-								</div>
-						</NavLink>
-						
 					</div>
 				</div>
 				<div className='w-full p-5 mb-10 flex flex-col gap-4'>
